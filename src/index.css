@@ -1,13 +1,41 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Light grey background, adjust color as needed */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Additional padding around the app container for better spacing */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Custom styling for the task cards */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); /* Add a slight shadow for depth */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Adjust title size if needed */
+}
+
+.card-text {
+  font-size: 1rem; /* Adjust text size if needed */
+}
+
+/* Styling for the form inputs and text area within the card for editing */
+.card input[type="text"],
+.card textarea {
+  margin-bottom: 0.5rem; /* Add some spacing between form elements */
+}
+
+/* Button customizations */
+.btn-primary {
+  background-color: #007bff; /* Adjust primary button color if needed */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Adjust secondary button color if needed */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Adjust danger button color if needed */
 }
